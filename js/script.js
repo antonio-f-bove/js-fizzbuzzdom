@@ -29,3 +29,20 @@ for (let i = 1; i <= 100; i++) {
   }
   ul.append(li);
 }
+
+
+// altro modo in cui l'avrei fatto
+/*
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0) {
+    if (i % 5 === 0) {
+      // fizzbuzz
+    } else {
+      // fizz
+    }
+  } else if (i % 5 === 0) {
+    // buzz
+  }
+  else // solo numero
+}
+*/
